@@ -1,0 +1,66 @@
+header{background-color: white;
+    }
+body{background-color: gray;
+    padding-right: 20px;
+    padding-left:20px; /* é o espaço que você define para ter da borda do layout*/
+    }
+form{background: black;
+    color: white;
+}.teste1 a{
+    text-decoration: none;
+    color: white;
+}
+.teste1 a:hover{
+    text-decoration: none;
+    font-size: medium;
+    background: white;
+    color: black ;
+    padding:auto;
+}
+/*Para tirar o azul do link é necessário usar a class em seguida o a, (ex: test a:{...})*/
+ /*Margin fica entre o padding e o conteúdo*/   
+/*Daqui em diante se trata do corpo do layout*/
+div#pai{
+    display: inline-flex;
+    margin-top: 10px;
+    width: 100%;
+    background: gray;
+}.colesquerda{
+    width: 60%;
+    background: white;
+}.coldireita{
+    width: 40%;
+    text-align: center;
+}.clientes{
+    width: 100%;
+    background: white;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    }
+table.tabela1{
+    background: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}.tabela2{
+    background: white ;
+    margin: 20% 10% 30% 20%;
+    padding-top: 5%;
+}.tabela3{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+td.texto1{
+    text-align: justify;
+}
+    /* A ordem do margin é superior, direita, inferior e esquerda*/
+img.imagem1{width: 90%;
+    height: 90%;
+    }.imagem2{width: 80%;
+    height: 80%;
+    }
+footer{background: white;
+    text-align: center;
+}
